@@ -4,64 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Happy New Year 2024</title>
+    <title>Happy New Year 2023</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Andika+New+Basic&amp;display=swap">
 </head>
 <body>
-    <canvas id="Canvas"></canvas>
-    <div class="msg">Happy New Year</div>
-    <div class="year">
-        <span class="first_year">
-            <span class="y1">2</span>
-            <span class="y2">0</span>
-            <span class="y3">2</span>
-        </span>
-        <span class="old">3</span>
-        <span class="y4 new">4</span>
-        <div class="balloon"></div>
-    </div>
-    <div class="firework" id="firework1">
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-    </div>
-    <div class="firework" id="firework2">
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-    </div>
-    <div class="firework" id="firework3">
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-        <div class="cracker"></div>
-    </div>
-  <script src="script.js"></script>
+  
+<canvas id="canvas">This browser does not support canvas.</canvas>
+
+<h1 class="title">2024</h1>
+
+<!-- countdown element -->
+<div id="countdown-box" class="cdb">
+	<div class="cdi">
+		<span id="d">0</span>
+		<div id="d-lbl" class="cdi-lbl">DAYS</div>
+	</div>
+	<div class="cdi">
+		<span id="h">0</span>
+		<div id="h-lbl" class="cdi-lbl">HOURS</div>
+	</div>
+	<div class="cdi">
+		<span id="m">0</span>
+		<div id="m-lbl" class="cdi-lbl">MINUTES</div>
+	</div>
+	<div class="cdi">
+		<span id="s">0</span>
+		<div id="s-lbl" class="cdi-lbl">SECONDS</div>
+	</div>
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
