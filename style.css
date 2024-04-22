@@ -4,8 +4,8 @@ body {
 	font-family: "Andika New Basic", cursive;
 	color: #f5f5f5;
 	overflow: hidden;
-	height: 101%;
-	width: 101%;
+	height: 100%;
+	width: 100%;
 	padding: 0;
 	margin: 0;
 	user-select: none;
@@ -19,8 +19,8 @@ canvas {
 }
 .title {
 	position: absolute;
-	top: 31%;
-	left: 51%;
+	top: 30%;
+	left: 50%;
 	transform: translate(-50%, -30%);
 	font-size: 7em;
 	padding: 0;
@@ -29,15 +29,15 @@ canvas {
 #countdown-box {
 	z-index: 1;
 	position: absolute;
-	top: 71%;
-	left: 51%;
+	top: 70%;
+	left: 50%;
 	transform: translate(-50%, -70%);
 	text-align: justify;
-	width: 91%;
+	width: 90%;
 }
 #countdown-box:after {
 	display: inline-block;
-	width: 101%;
+	width: 100%;
 	content: "";
 }
 .cdi {
@@ -55,7 +55,7 @@ canvas {
 	}
 	#countdown-box {
 		text-align: center;
-		top: 76%;
+		top: 75%;
 	}
 	/*#countdown-box:after {
 		content: none;
